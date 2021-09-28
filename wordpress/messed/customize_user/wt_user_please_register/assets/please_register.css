@@ -1,0 +1,38 @@
+.plaese-register-target {
+  cursor: initial;
+  z-index: 100;
+  position: fixed !important;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 400px;
+  min-height: 400px;
+  max-width: 98vw;
+  max-height: 98vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 7em 5em;
+  border: 1px solid #e2e2e2;
+  background-color: white;
+  box-shadow: 0 0 80px 0px #cacaca;
+
+  display: none;
+}
+.plaese-register-target.is-showed {
+  display: block;
+}
+.plaese-register-closer {
+  position: absolute;
+  top: 20px;
+  right: 18px;
+}
+.plaese-register-target .inner {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.plaese-register-target .inner > * + * {
+  margin-top: 2em;
+}

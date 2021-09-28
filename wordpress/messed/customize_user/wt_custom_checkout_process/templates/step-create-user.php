@@ -1,0 +1,1 @@
+<?php WT_USER_REGISTER_FORM::render(); ?>

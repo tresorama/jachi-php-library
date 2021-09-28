@@ -1,0 +1,32 @@
+.why-register-is-good * + * {
+  margin-top: 2.5em;
+}
+.why-register-is-good .features {
+  display: flex;
+  flex-direction: column;
+}
+.why-register-is-good .features > .feature + .feature {
+  margin-top: 2em;
+}
+.why-register-is-good .features > .feature {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+.why-register-is-good .features > .feature > * + * {
+  margin-left: 1.5em;
+}
+.why-register-is-good .features > .feature .icon {
+  min-width: 50px;
+  font-size: 2em;
+}
+.why-register-is-good .features > .feature .text {
+  font-size: 0.9em;
+  text-align: left;
+  margin-top: 0;
+}
+
+.why-register-is-good .title {
+  font-weight: bold;
+  font-size: 1.5em;
+}
